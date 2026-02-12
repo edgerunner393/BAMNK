@@ -1,0 +1,20 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Very smol bank",
+  "license": "ISC",
+  "author": "Adiot",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "y",
+    "dev": "npx nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.0",
+    "nodemon": "^3.1.11"
+  }
+}
